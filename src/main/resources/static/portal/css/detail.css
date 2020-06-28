@@ -1,0 +1,448 @@
+.container{
+	width: 97%;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+.title{
+	width: 100%;
+	height: 6.5%;
+	color: #FFFFFF;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.returnImg{
+	width:30px;
+	cursor: pointer;
+}
+.maincontent{
+	width: 100%;
+	height: 93%;	
+	display: flex;
+  	flex-wrap: wrap;
+  	align-content: space-between;			
+}
+.column {
+	margin-top:2%;
+	height: 45%;
+	flex-basis: 100%;
+	display: flex;
+	justify-content: space-between;	
+}
+.oneBlock, .twoBlock, .threeBlock, .fourBlock{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.centerContent{
+	width: 38%;
+	height: 47%;
+	position: absolute;
+	left: 31%;
+	top: 30%;
+	color: #FFFFFF;
+}
+.centerContent h4, .centerContent p{
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.centerContent p{
+	margin-top: 8.5%;
+	font-size: 15px;
+}
+.centerContent table{
+	width:70%;
+	height: 50%;
+	margin: auto;
+}
+.centerContent table th, .centerContent table tr{
+	background: transparent;
+	font-size: 12px;
+}
+.centerContent table tr{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.centerContent table tr td{
+	padding: 1.5% 0%;
+}
+.centerContent table tr td:nth-child(1){
+	width: 15%;
+}
+.centerContent table tr td:nth-child(2){
+	width: 80%;
+	color: rgba(144,166,183,0.8);
+}
+.caseInformation{
+	padding: 0;
+}
+.caseInformation span{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+.twoBlock{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.twoBlock .leftTopIcon{
+	margin-right: 5%;
+	margin-top: 3%;
+}
+.juanIcon{
+	width: 28%;
+}
+.folder{
+	width:85%;
+	height: 35%;	
+	margin-top: 5%;
+	font-size: 13px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.electronicFile{
+	width: 60%;
+}
+.electronicFile p{
+	padding: 2%;
+}
+.electronicFile p span:nth-child(1){
+	width: 45%;
+	text-align: right;
+	display: inline-block;
+}
+.detailBtn{
+	border: 1px solid rgba(144,166,183,0.3);
+	padding: 1% 2%;
+	color:#90a6b7;   			
+	cursor: pointer;
+	font-size: 12px;	
+	text-align: center;	
+	margin-top: 5%;	
+	margin-right: 40%;
+}
+.threeBlock{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+.goodsCount{
+	width: 280px;
+	height:60px;
+	margin-left: 20%;
+	background: url(../image/goods.png)no-repeat;
+	background-size: 100% 100%;
+	color:#44ffff;
+	font-size: 12px;
+}
+.goodsconut{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.goodsconut span{
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fourBlock{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.fourBlock .leftTopIcon{
+	margin-left: 75%;
+	margin-bottom: 7%;
+}
+.hearingRoom{
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.goodsList{
+	width: 80%;
+	height: 45%;
+	margin-left: 20%;
+	overflow-y: auto;
+	margin-top: 5%;
+}
+ .caseGoodsList, .casePerson{
+ 	font-size: 10px;
+ 	color: rgba(144,166,183,0.8);
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+ 	text-align: left;
+ 	border-bottom: 1px solid rgba(144,166,183,0.1);
+ }
+.casePersonList{
+	max-height: 55%;
+	width: 80%;	
+	overflow-y: auto;
+	margin-bottom: 3%;
+	margin-top: 4%;
+}
+ .caseGoodsList th, .casePerson th{			 
+ 	font-weight: normal;
+ 	padding: 1% 0%;	
+ 	cursor: default;	
+ 	color: #FFFFFF;	 	
+ }
+.caseGoodsList td, .casePerson td{
+	padding: 1.5% 0%;	
+}
+ .caseGoodsList tr:nth-child(2n+1), .casePerson tr:nth-child(2n+1){
+ 	background: rgba(144,166,183,0.1);
+ }
+ .caseGoodsList tr:nth-child(2n),  .casePerson tr:nth-child(2n){
+ 	background: transparent;
+ }
+ .caseGoodsList tr td:nth-child(1), .caseGoodsList tr th:nth-child(1), .casePerson tr td:nth-child(1), .casePerson tr th:nth-child(1){
+ 	padding-left: 2%;
+ }
+.threeBlock .leftTopIcon{
+	margin-left: 5%;
+	margin-bottom: 7%;
+}
+.leftPart{
+	width: 15%;
+	height: 100%;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+.leftTopIcon{
+	width: 75px;
+}
+.rightPart{
+	width: 75%;
+	height: 100%;
+	margin-top:2%;
+/*	border: 1px solid blue;*/
+}
+.personType{
+	width: 100%;
+	height: 50%;
+	margin-top: 40%;
+}
+.personType p, .pageBtn span{
+	border: 1px solid rgba(144,166,183,0.3);
+	width: 96%;
+	padding: 10% 2%;
+	color:#90a6b7;   			
+	cursor: pointer;
+	font-size: 12px;	
+	text-align: center;	
+	margin-top: 20%;	
+}
+.pageBtn span{
+	padding: 0 2%;
+}
+h4{
+	color: #FFFFFF;
+}
+.rightPart table{
+	font-size: 12px;	
+	width: 170%;
+	height: 90%;
+	color: #FFFFFF;
+}
+#suspectInfo td{
+	height: 5%;
+}
+/*.caseInfo{
+	width: 90%;
+	height: 60%;
+	color: #90a6b7;
+}*/
+.caseInfoList{
+	height:100%;
+	width: 120%;
+	overflow-y: auto;
+	border: 1px solid transparent;
+}
+.victim:hover, .suspect:hover{
+	color: #FFFFFF;
+}
+.suspectInfoTitle, .hearingRoom{
+	opacity: 0;
+}
+.flowDetail{
+	color:#90a6b7;
+	font-size: 12px;
+	padding: 1% 0%;
+}
+.personColor{
+	color:#90a6b7;
+}
+#prevPerson, #nextPerson{
+	border: 1px solid rgba(144,166,183,0.3);
+	padding: 0.5% 5%;
+	color:#90a6b7;   			
+	cursor: pointer;
+	font-size: 10px;
+	/*display: none;*/	
+}
+#nextPerson{
+	margin-left: 10%;
+}
+
+.persontype{
+	border: 1px solid #ff5c77;
+	color: #ff5c77;
+	margin-left: 2%;
+}
+.right{
+	width: 280px;
+	height: 100%;
+	margin-left: 30px;
+	background: #1B2F5D;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.videoBtn{
+	margin-left:35%;
+	margin-top: 2%;
+	cursor: pointer;
+	width: 30%;
+	height: 10%;
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(../image/guanlian.png)no-repeat;
+	background-size: 100% 100%;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.dialogBox{
+	width: 1200px;
+	height: 600px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -600px;
+	margin-top: -340px;
+	display: none;
+}
+.title1, .title2, .title3{
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 30px;
+}
+.title2, .title3{
+	display: none;
+}
+.videoBg{
+	width: 100%;
+	height: 560px;
+}
+.closeBtn{
+	width: 30px;
+	position: absolute;
+	right: 20px;
+	top: -5px;
+	cursor: pointer;
+}
+.videoArea{
+	width: 1080px;
+	height: 480px;
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+.left{
+	width: 800px;
+	height: 100%;
+	background: #232325;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;
+}
+
+.videoList{
+	width: 225px;
+	margin-left: 22px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.audioImg{
+	width: 100%;
+	height: 120px;	
+	margin-left: 0px;	
+	margin-top: 10px;		
+}
+.videTitle{
+	color: #566986;
+}
+h5{
+	text-align:left;
+	margin-top:10px;
+	margin-left: 22px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.videTitle, .videTime{
+	color: #566986;
+	font-size: 12px;
+}
+.bigVideo2, .bigVideo3, .bigVideo1{
+	margin-top: 5px;
+}
+
+@media only screen and (max-width: 1366px) {
+	.videTitle, .videTime{
+		 font-size:12px; 
+        -webkit-transform-origin-x: 0;
+        -webkit-transform: scale(0.90);
+        transform-origin: 0;
+        transform: scale(0.9);
+        margin-top: 1%;
+	}
+	.leftTopIcon{
+		width: 53px;
+	}
+	.centerContent p{
+		font-size: 12px;
+		margin-top: 8%;
+	}
+	.caseInformation span{
+		-webkit-line-clamp: 2;
+	}
+}
+.bigVideo2, .bigVideo3{
+	display: none;
+}
+/* 滚动条样式 */
+::-webkit-scrollbar{width: 6px;height:6px;background:#32A2B6;}  
+::-webkit-scrollbar-thumb{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.8);  
+    background-color: #32A2B6;  
+ }   
+/*IE滚动条颜色 */
+html {scrollbar-face-color:#1B2F5D;/*滚动条颜色*/}
